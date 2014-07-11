@@ -1,4 +1,4 @@
-Link Page Chooser for Kirby Panel Custom Fields
+Page's Link Chooser for Kirby Panel Custom Fields
 ==========================================
 
 Usage
@@ -24,7 +24,7 @@ The page chooser custom field is simply declared with the type "page". Take a lo
 Warning - Issues
 ----------------
 
-When a URL's page is modified, the links are not regenerated. So if a URL is modified, you need to go back to the page with the Page Chooser custom field, rechoose the destination page and save it.
+When saving a page with the Page Chooser, the UID of the destination's page is saved. If the URL of the desination's page is modified after that, that means the UID is not valid anymore. You need to go back to the page (with the Page Chooser) to rechoose the destination's page and save it.
 
 Any suggestion ?
 ----------------
