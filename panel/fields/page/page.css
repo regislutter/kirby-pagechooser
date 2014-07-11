@@ -1,0 +1,10 @@
+.form .field.select {
+  margin-right: -20px;
+}
+.form select {
+  display: block;
+  margin-top: -2px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  padding: 5px;
+}
