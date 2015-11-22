@@ -1,6 +1,16 @@
 Page's Link Chooser for Kirby Panel Custom Fields
 ==========================================
 
+## Kirby 2
+Since Kirby 2, you can use the native select (dropdown list) in your blueprints, like :
+```
+destination:
+  label: Select a destination for the link
+  type: select
+  options: pages
+```
+Check the documentation here : http://getkirby.com/docs/cheatsheet/panel-fields/select
+
 Usage
 -----
 
